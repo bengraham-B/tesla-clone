@@ -1,0 +1,77 @@
+.buttons {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btns-container{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn {
+    width: 260px;
+    height: 40px;
+    margin: 15px 15px 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.btns-custom-order-btn{
+    background: rgb(69, 66, 62);
+}
+
+/*? Setting the colour of p tag  */
+.btns-custom-order-btn-p {
+    color: white;
+}
+
+.btns-demo-drive-btn{
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/*^ ----------- The Arrow ----------- */
+
+.arrow-container {  
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.arrow {
+    transform: rotate(180deg); /** (1) https://developer.mozilla.org */
+    font-size: 25px;
+}
+
+
+
+
+/*
+* Resources Used:
+* (1) https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate: Information regarding rotating in css
+
+*/

@@ -1,38 +1,27 @@
+/*~ Importing Google Fonts: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap');
+
+* {
+  font-family: 'poppins'; /*~ Setting all the fonts to poppins*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/a269d7b4-87a9-4057-9ac5-2565e56a188e/bvlatuR/std/4096x2560/Homepage-Model-3-Desktop-LHD?quality=auto-medium&amp;format=auto');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-bottom{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: flex-end;
+  margin-top: 25%; /*? Pushing this div to the bottom of the screen*/
 }
