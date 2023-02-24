@@ -22,6 +22,9 @@ export default function Buttons() {
         <div className="arrow-container">
             <div className="arrow">^</div>
         </div>
+        <div>
+            <a href="https://www.tesla.com/">Tesla</a>
+        </div>
     </div>
   )
 }
